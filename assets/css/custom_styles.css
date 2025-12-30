@@ -1,0 +1,151 @@
+/*************************/
+/* GENERAL REUSABLE COMPONENTS */
+/************************/
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #1a140d;
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  letter-spacing: -0.5px;
+}
+
+.heading-secondary {
+  font-size: 3.2rem;
+  line-height: 1.2;
+}
+
+.heading-tertiary {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  /* margin-bottom: 3.2rem; */
+}
+
+.heading-primary span {
+  display: block;
+}
+
+.icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+
+
+/*************************/
+/* SKILL */
+/************************/
+
+.section-skill {
+  background-color: #f2f0ec;
+  padding: 4.8rem 0 6.4rem 0;
+}
+
+.skill-description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+
+.skill {
+  padding: 3.2rem 2.4rem 2rem 2.4rem;
+  border: #d9d1c7 solid 1px;
+  border-radius: 15px;
+}
+
+.heading-title {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.skill-subheading {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.list-item,
+.list-item--tool {
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+}
+
+.list-item--tool {
+  display: flex;
+  align-items: top;
+}
+
+.list-item span,
+.list-item--tool span {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.list-item p,
+.list-item--tool p {
+  font-size: 1.3rem;
+}
+
+.list-item ion-icon,
+.list-item--tool ion-icon {
+  color: #806443;
+}

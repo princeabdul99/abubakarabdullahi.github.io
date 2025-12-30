@@ -21,7 +21,7 @@ title: "Home"
 
 <section id="about" class="section">
   <div class="about-container">
-    <img src="{{ '/assets/images/me.jpeg' | relative_url }}"
+    <img src="{{ '/assets/images/user-avatar.png' | relative_url }}"
          alt="Abubakar Abdullahi"
          class="profile-pic">
 
@@ -35,13 +35,179 @@ title: "Home"
         <a href="https://www.linkedin.com/in/Abubakar-Abdullahi" target="_blank" aria-label="LinkedIn">
           <i class="fa-brands fa-linkedin"></i>
         </a>
-        <!-- <a href="https://www.youtube.com/@dataslinger6379" target="_blank" aria-label="YouTube">
-          <i class="fa-brands fa-youtube"></i>
-        </a> -->
+        <a href="https://github.com/princeabdul99" target="_blank" aria-label="Github">
+          <i class="fa-brands fa-github"></i>
+        </a>
       </p>
     </div>
   </div>
 </section>
+
+
+<!-- ====================== Skills  ===================== -->
+
+<section class="section-skill">
+<div class="container">
+<h2 class="heading-secondary">Building Digital Experiences</h2>
+<p class="skill-description">
+I bring creativity and logic together to turn concepts into
+meaningful, functional solutions.
+</p>
+<div class="grid grid--3-cols">
+
+
+
+<div class="skill">
+<h3 class="heading-tertiary heading-title">
+<ion-icon class="icon" name="code-slash-outline"></ion-icon
+><span>What I can do</span>
+</h3>
+<p class="skill-subheading">
+I can help develop solutions that will help you grow your
+business:
+</p>
+<ul class="list">
+<li class="list-item">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon
+    ><span>Data Engineering</span>
+</li>
+<li class="list-item">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon
+    ><span>Fullstack Web Development</span>
+</li>
+<li class="list-item">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon
+    ><span>Mobile App Development</span>
+</li>
+<li class="list-item">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon
+    ><span>API Integration</span>
+</li>
+<li class="list-item">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon
+    ><span>ETL Workflow</span>
+</li>
+</ul>
+</div>
+
+
+
+<div class="skill">
+<h3 class="heading-tertiary heading-title">
+<ion-icon name="construct-outline"></ion-icon
+><span>Tools I Use</span>
+</h3>
+<p class="skill-subheading">
+I use the latest tools and technologies to build functional and
+scalable products:
+</p>
+<ul class="list">
+<li class="list-item--tool">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon>
+    <div>
+    <span>Data Engineering:</span>
+    <p>Azure, AWS, Snowflake</p>
+    </div>
+</li>
+
+<li class="list-item--tool">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon>
+    <div>
+    <span>Backend:</span>
+    <p>Node.js, FastAPI, MongoDB, PostgreSQL</p>
+    </div>
+</li>
+
+<li class="list-item--tool">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon>
+    <div>
+    <span>Mobile App:</span>
+    <p>Flutter</p>
+    </div>
+</li>
+
+<li class="list-item--tool">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon>
+    <div>
+    <span>Frontend:</span>
+    <p>HTML/CSS, SASS, React, NextJs</p>
+    </div>
+</li>
+</ul>
+</div>
+
+
+<div class="skill">
+<h3 class="heading-tertiary heading-title">
+<ion-icon name="logo-buffer"></ion-icon
+><span>Data Engineer</span>
+</h3>
+<p class="skill-subheading">
+I design and build efficient data solutions for accurate,
+scalable, and high-performance analytics:
+</p>
+<ul class="list">
+<li class="list-item">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon
+    ><span>Scalable ETL/ELT Pipelines</span>
+</li>
+<li class="list-item">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon
+    ><span>Data Modeling & Warehousing</span>
+</li>
+<li class="list-item">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon
+    ><span>Cloud Integration (AWS, Azure)</span>
+</li>
+<li class="list-item">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon
+    ><span>Workflow Automation & Optimization</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
 
 <!-- ===================== Projects ===================== -->
 <section id="projects" class="section">
