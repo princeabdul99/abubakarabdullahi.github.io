@@ -28,6 +28,10 @@ html, body {
   background:var(--bg);
   color:var(--text);
   font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif, "Rubik";
+
+  font-size: 62.5%;
+  line-height: 1;
+  font-weight: 400;
 }
 
 a { color: var(--accent); text-decoration: none; }
