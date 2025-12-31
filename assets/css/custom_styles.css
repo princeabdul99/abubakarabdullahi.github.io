@@ -93,6 +93,7 @@
   position: sticky;
   top: 0;
   z-index: 40;  
+  border-bottom: 1px solid #998369;
 }
 
 /*************************/
@@ -118,7 +119,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  background-color: #998369;
+  color: #998369;
 }
 
 
