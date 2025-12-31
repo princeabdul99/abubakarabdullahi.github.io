@@ -27,7 +27,7 @@ title: "Home"
       <h1  class="heading-primary">Hello, I'm Abubakar Abdullahi</h1>
       <p class="hero-description"> <strong>Data Engineer</strong> | <strong>ETL/ELT Developer</strong> | <strong>Software Developer</strong> </p>
       <p class="hero-description">I build practical, production-like data engineering systems — orchestration, storage, transformations, serving, and observability — then explain the decisions behind them.</p>
-      <p class="hero-description"><strong>Core skills:</strong> Python · SQL · DBT · Airflow · Spark · BigQuery · Docker · GCP · Snowflake</p>
+      <!-- <p class="hero-description"><strong>Core skills:</strong> Python · SQL · DBT · Airflow · Spark · BigQuery · Docker · GCP · Snowflake</p> -->
 
       <p class="social-links">
         <a href="https://www.linkedin.com/in/abubakar-abdullahi" target="_blank" aria-label="LinkedIn">
@@ -193,7 +193,7 @@ title: "Home"
                 class="icon"
                 name="checkmark-circle-outline"
                 ></ion-icon
-                ><span>Cloud Integration (GCP, Snowflake, AWS, Azure)</span>
+                ><span>Cloud Data Integration</span>
             </li>
             <li class="list-item">
                 <ion-icon
