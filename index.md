@@ -211,10 +211,11 @@ title: "Home"
 
 <!-- ===================== Projects ===================== -->
 <section id="projects" class="section">
-  <div class="section-header">
-    <h2>🚀 Projects</h2>
-    <a class="view-all" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">All repos →</a>
-  </div>
+  <div class="container">
+    <div class="section-header">
+      <h2 class="heading-secondary">🚀 Projects</h2>
+      <a class="view-all" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">All repos →</a>
+    </div>
 
   {% assign projects_count = site.data.projects | size %}
   {% if projects_count > 4 %}
@@ -264,6 +265,8 @@ title: "Home"
       {% endfor %}
     </div>
   {% endif %}
+
+  </div>
 </section>
 
 

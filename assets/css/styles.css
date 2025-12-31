@@ -79,6 +79,7 @@ a { color: #1a140d; text-decoration: none; }
 }
 
 
+
 /* About section */
 .about-container {
   display: flex;
@@ -135,7 +136,7 @@ a { color: #1a140d; text-decoration: none; }
 
 
 
-
+/* Project section */
 .section-header {
   display:flex;
   align-items:center;
