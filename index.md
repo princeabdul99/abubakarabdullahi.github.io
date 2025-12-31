@@ -21,12 +21,12 @@ title: "Home"
 
 <section id="about" class="section">
   <div class="about-container">
-    <img src="{{ '/assets/images/user-avatar.png' | relative_url }}" alt="Abubakar Abdullahi" class="profile-pic">
+    <img src="{{ '/assets/images/user-avatar.png' | relative_url }}" alt="A user avatar wearing a brown hat and glasses" class="profile-pic">
 
     <div class="about-text">
-      <h1>Hello World! I'm Abubakar Abdullahi</h1>
-      <p>Data Engineer | ETL/ELT Developer </p>
-      <p>I build practical, production-like data engineering systems — orchestration, storage, transformations, serving, and observability — then explain the decisions behind them.</p>
+      <h1  class="heading-primary">Hello, I'm Abubakar Abdullahi</h1>
+      <p class="hero-description">Data Engineer | ETL/ELT Developer </p>
+      <p class="hero-description">I build practical, production-like data engineering systems — orchestration, storage, transformations, serving, and observability — then explain the decisions behind them.</p>
       <p><strong>Core skills:</strong> Python · SQL · DBT · Airflow · Spark · BigQuery · Docker · GCP · Snowflake</p>
 
       <p class="social-links">
