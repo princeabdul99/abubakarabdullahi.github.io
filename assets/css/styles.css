@@ -178,9 +178,6 @@ a { color: #1a140d; text-decoration: none; }
 
 .card-body { 
   padding: 1rem 1rem 1.2rem;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .card-title {

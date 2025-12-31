@@ -233,11 +233,13 @@ title: "Home"
           <div class="card-body">
             <h3 class="card-title"><a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a></h3>
             <p class="card-text">{{ item.description }}</p>
+          </div>
+          <div>
             {% if item.stack %}<p class="card-tags">{{ item.stack }}</p>{% endif %}
             <div class="card-actions">
               {% if item.screenshot %}<a href="#" class="btn ghost" data-lightbox-src="{{ item.screenshot | relative_url }}">Preview</a>{% endif %}
               <a class="btn" href="{{ item.link }}" target="_blank" rel="noopener">Open</a>
-            </div>
+            </div>            
           </div>
         </article>
         {% endfor %}
@@ -255,11 +257,13 @@ title: "Home"
         <div class="card-body">
           <h3 class="card-title"><a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a></h3>
           <p class="card-text">{{ item.description }}</p>
+        </div>
+        <div>
           {% if item.stack %}<p class="card-tags">{{ item.stack }}</p>{% endif %}
           <div class="card-actions">
             {% if item.screenshot %}<a href="#" class="btn ghost" data-lightbox-src="{{ item.screenshot | relative_url }}">Preview</a>{% endif %}
             <a class="btn" href="{{ item.link }}" target="_blank" rel="noopener">Open</a>
-          </div>
+          </div>          
         </div>
       </article>
       {% endfor %}
