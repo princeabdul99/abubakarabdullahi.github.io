@@ -181,6 +181,9 @@ a { color: #1a140d; text-decoration: none; }
 }
 .card-footer{
   margin-bottom: 1.5rem;
+   display:flex;
+  gap:.5rem;
+  justify-content: center;
 }
 
 .card-title {
@@ -203,15 +206,16 @@ a { color: #1a140d; text-decoration: none; }
   margin: .55rem 0;
   /* font-size: .9rem; */
   font-size: 1.2rem;
-    font-weight: 700;
+  font-weight: 700;
   color: #1a140d;
 }
 
 .card-actions {
   margin-top: .8rem;
-  display:flex;
   gap:.5rem;
-  justify-content: center;
+
+  /* display:flex;
+  justify-content: center; */
 }
 
 .btn {

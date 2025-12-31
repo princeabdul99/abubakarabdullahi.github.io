@@ -1,15 +1,22 @@
-- title: "History of Rome Podcast LLM Search."
-  link: "https://github.com/MichaelShoemaker/history_of_rome_podcast_llm"
-  description: "Download and transcribe all epiodes of the History of Rome and load them to Ollama LLM"
-  stack: "Docker Compose · Ollama ·  qdrant"
-  image: "/assets/images/HistoryOfRomeDataFlowDiagram.gif"
-  preview_gif: "/assets/images/HORDemo.gif"
-  screenshot: "/assets/images/HistoryOfRomeDataFlowDiagram.gif"
+- title: "Global Fashion Retail"
+  link: "https://github.com/princeabdul99/global_fashion_retail_dwh_snowflake"
+  description: "Architected and implemented an automated data pipeline to
+                extract raw data from AWS S3, ingest into Snowflake, and
+                transform it into optimized reporting models. This enabled
+                real-time analytics, reduced data latency, and ensured high data
+                quality across countries."
+  stack: "Snowflake · AWS ·  Python · Github"
+  image: "/assets/images/GFRDW_architecture.png"
+  preview_gif: "/assets/images/GFRDW_architecture.png"
+  screenshot: "/assets/images/GFRDW_architecture.png"
 
-- title: "Divvy Bike Rental Data Pipeline."
-  link: "https://github.com/MichaelShoemaker/shoemaker-de-zoomcamp-final-project"
-  description: "Data Enginnering Zoomcamp Final Project 2022"
-  stack: "Big Query · Airflow ·  dbt"
+- title: "Insurance Claims"
+  link: "https://github.com/princeabdul99/Insurance-Claims-Analytics-System-with-Data-Lakehouse-Architecture"
+  description: "An end-to-end insurance claims analytics solution built with
+                Azure-native cloud services. It showcases the full pipeline —
+                from raw data ingestion to business intelligence reporting —
+                using modern data lakehouse architecture principles."
+  stack: "Python · Postgresql ·  databricks · Github"
   image: "/assets/images/DivvyDataDiagram.jpeg"
   preview_gif: "/assets/images/DivvyDataDiagram.jpeg"
   screenshot: "/assets/images/DivvyDataDiagram.jpeg"
