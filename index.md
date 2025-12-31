@@ -21,9 +21,7 @@ title: "Home"
 
 <section id="about" class="section">
   <div class="about-container">
-    <img src="{{ '/assets/images/user-avatar.png' | relative_url }}"
-         alt="Abubakar Abdullahi"
-         class="profile-pic">
+    <img src="{{ '/assets/images/user-avatar.png' | relative_url }}" alt="Abubakar Abdullahi" class="profile-pic">
 
     <div class="about-text">
       <h1>Hello World! I'm Abubakar Abdullahi</h1>
@@ -33,10 +31,12 @@ title: "Home"
 
       <p class="social-links">
         <a href="https://www.linkedin.com/in/abubakar-abdullahi" target="_blank" aria-label="LinkedIn">
-          <i class="fa-brands fa-linkedin"></i>
+          <!-- <i class="fa-brands fa-linkedin"></i> -->
+          <ion-icon class="cta-link--icon" name="logo-linkedin"></ion-icon>
         </a>
         <a href="https://github.com/princeabdul99" target="_blank" aria-label="Github">
-          <i class="fa-brands fa-github"></i>
+          <!-- <i class="fa-brands fa-github"></i> -->
+          <ion-icon class="cta-link--icon" name="logo-github"></ion-icon>
         </a>
       </p>
     </div>

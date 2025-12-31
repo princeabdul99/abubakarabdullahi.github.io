@@ -78,6 +78,21 @@
 
 
 /*************************/
+/* HERO SECTION */
+/************************/
+
+.profile-pic {
+  background-color: #a6937b;
+}
+
+.cta-link--icon {
+  height: 3rem;
+  width: 3rem;
+  color: #1a140d;
+}
+
+
+/*************************/
 /* SKILL */
 /************************/
 
