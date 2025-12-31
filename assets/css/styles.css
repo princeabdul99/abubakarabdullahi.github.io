@@ -160,7 +160,7 @@ a { color: #1a140d; text-decoration: none; }
   box-shadow: var(--shadow);
   display:flex;
   flex-direction: column;
-  align-items: space-between;
+  justify-content: space-between;  
 }
 
 .thumb { display:block; position: relative; }
@@ -178,6 +178,9 @@ a { color: #1a140d; text-decoration: none; }
 
 .card-body { 
   padding: 1rem 1rem 1.2rem;
+}
+.card-footer{
+  align-self: flex-end;
 }
 
 .card-title {
