@@ -22,13 +22,11 @@ title: "Home"
 <section id="about" class="section">
   <div class="about-container">
     <img src="{{ '/assets/images/user-avatar.png' | relative_url }}" alt="A user avatar wearing a brown hat and glasses" class="profile-pic">
-
     <div class="about-text">
       <h1  class="heading-primary">Hello, I'm Abubakar Abdullahi</h1>
       <p class="hero-description"> <strong>Data Engineer</strong> | <strong>ETL/ELT Developer</strong> | <strong>Software Developer</strong> </p>
       <p class="hero-description">I build practical, production-like data engineering systems — orchestration, storage, transformations, serving, and observability — then explain the decisions behind them.</p>
       <!-- <p class="hero-description"><strong>Core skills:</strong> Python · SQL · DBT · Airflow · Spark · BigQuery · Docker · GCP · Snowflake</p> -->
-
       <p class="social-links">
         <a href="https://www.linkedin.com/in/abubakar-abdullahi" target="_blank" aria-label="LinkedIn">
           <!-- <i class="fa-brands fa-linkedin"></i> -->
@@ -55,8 +53,6 @@ title: "Home"
     meaningful, functional solutions.
     </p>
     <div class="grid grid--3-cols">
-
-
       <div class="skill">
         <h3 class="heading-tertiary heading-title">
         <ion-icon class="icon" name="code-slash-outline"></ion-icon
@@ -104,9 +100,6 @@ title: "Home"
           </li>
         </ul>
       </div>
-
-
-
       <div class="skill">
         <h3 class="heading-tertiary heading-title">
         <ion-icon name="construct-outline"></ion-icon
@@ -127,7 +120,6 @@ title: "Home"
               <p>Postgres, GCP, Snowflake, AWS, Azure</p>
               </div>
           </li>
-
           <li class="list-item--tool">
               <ion-icon
               class="icon"
@@ -138,7 +130,6 @@ title: "Home"
               <p>Apache Airflow</p>
               </div>
           </li>
-
           <li class="list-item--tool">
               <ion-icon
               class="icon"
@@ -149,7 +140,6 @@ title: "Home"
               <p>DLT, DBT, Spark</p>
               </div>
           </li>
-
           <li class="list-item--tool">
               <ion-icon
               class="icon"
@@ -162,8 +152,6 @@ title: "Home"
           </li>
         </ul>
       </div>
-
-
       <div class="skill">
         <h3 class="heading-tertiary heading-title">
         <ion-icon name="logo-buffer"></ion-icon

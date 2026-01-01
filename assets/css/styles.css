@@ -160,7 +160,7 @@ a { color: #1a140d; text-decoration: none; }
   box-shadow: var(--shadow);
   display:flex;
   flex-direction: column;
-  justify-content: space-between;  
+  /* justify-content: space-between;   */
 }
 
 .thumb { display:block; position: relative; }
@@ -181,9 +181,9 @@ a { color: #1a140d; text-decoration: none; }
 }
 .card-footer{
   margin-bottom: 1.5rem;
-   display:flex;
-  gap:.5rem;
-  justify-content: center;
+  display:flex;
+  /* gap:.5rem; */
+  /* justify-content: center; */
 }
 
 .card-title {
@@ -215,8 +215,8 @@ a { color: #1a140d; text-decoration: none; }
   margin-top: .8rem;
   gap:.5rem;
 
-  /* display:flex;
-  justify-content: center; */
+  display:flex;
+  justify-content: center;
 }
 
 .btn {

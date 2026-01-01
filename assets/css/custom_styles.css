@@ -191,14 +191,14 @@
 
 .list-item,
 .list-item--tool {
-  gap: 1.6rem;
+  gap: 1.2rem;
   margin-bottom: 2rem;
 }
 
 .list-item {
   display: flex;
-  align-items: start;
-  /* margin-left: 1.2rem; */
+  /* align-items: start; */ 
+  margin-left: 1.2rem;
 }
 
 .list-item--tool {
@@ -212,7 +212,7 @@
   font-size: 1.6rem;
   font-weight: 500;
 }
-.list-item p,
+
 .list-item--tool p {
   font-size: 1.3rem;
 }
