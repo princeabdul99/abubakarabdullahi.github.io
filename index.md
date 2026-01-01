@@ -198,7 +198,7 @@ title: "Home"
 
 
 <!-- ===================== Projects ===================== -->
-<section id="projects" class="section">
+<!-- <section id="projects" class="section">
   <div class="container">
     <div class="section-header">
       <h2 class="heading-secondary">🚀 Projects</h2>
@@ -261,7 +261,7 @@ title: "Home"
     </div>
   {% endif %}
   </div>
-</section>
+</section> -->
 
 <!-- ===================== Cetificates ===================== -->
 <section id="projects" class="section">
