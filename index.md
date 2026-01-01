@@ -16,7 +16,7 @@ title: "Home"
     scrollbar-width: none;    /* Firefox */
   }
   .carousel-track::-webkit-scrollbar { display: none; } /* WebKit */
-  .carousel .card { flex: 0 0 300px; } /* slide width */
+  .carousel .card .products{ flex: 0 0 300px; } /* slide width */
 </style>
 
 <section id="about" class="section">
@@ -303,26 +303,26 @@ title: "Home"
   {% else %}
     <div class="gallery">
       {% for item in site.data.projects %}
-            <div class="projects">
-              <a class="thumb" href="{{ item.link }}" target="_blank" rel="noopener" aria-label="Open project">
-                <img src="{{ item.image | default: '/assets/images/placeholder_project.jpg' | relative_url }}"
-                    alt="{{ item.title | escape }} thumbnail" loading="lazy">
-              </a>
-              <h3 class="card-title"><a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a></h3>
-              <p class="card-text">{{ item.description }}</p>
-              <ul class="tech-stack-list">
-                <li class="tech-item">
-                  <ion-icon name="snow" class="icon snowflake"></ion-icon>
-                </li>
-                <li class="tech-item">
-                  <ion-icon class="icon" name="logo-github"></ion-icon>
-                </li>
-              </ul>
-              <div class="visit-project">
-                {% if item.screenshot %}<a href="#" class="preview" data-lightbox-src="{{ item.screenshot | relative_url }}">Preview</a>{% endif %}
-                <a class="preview" href="{{ item.link }}" target="_blank" rel="noopener">Visit Project</a>
-              </div>
-            </div>
+        <div class="projects">
+          <a class="thumb" href="{{ item.link }}" target="_blank" rel="noopener" aria-label="Open project">
+            <img src="{{ item.image | default: '/assets/images/placeholder_project.jpg' | relative_url }}"
+                alt="{{ item.title | escape }} thumbnail" loading="lazy">
+          </a>
+          <h3 class="card-title"><a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a></h3>
+          <p class="card-text">{{ item.description }}</p>
+          <ul class="tech-stack-list">
+            <li class="tech-item">
+              <ion-icon name="snow" class="icon snowflake"></ion-icon>
+            </li>
+            <li class="tech-item">
+              <ion-icon class="icon" name="logo-github"></ion-icon>
+            </li>
+          </ul>
+          <div class="visit-project">
+            {% if item.screenshot %}<a href="#" class="preview" data-lightbox-src="{{ item.screenshot | relative_url }}">Preview</a>{% endif %}
+            <a class="preview" href="{{ item.link }}" target="_blank" rel="noopener">Visit Project</a>
+          </div>
+        </div>
       {% endfor %}
     </div>
   {% endif %}  
