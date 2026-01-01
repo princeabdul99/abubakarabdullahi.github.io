@@ -380,8 +380,8 @@ title: "Home"
                 </li>
               </ul>
               <div class="visit-project">
-                <a href="#" class="preview">Visit Project</a>
-                <a href="#" class="preview">Visit Project</a>
+                {% if item.screenshot %}<a href="#" class="preview" data-lightbox-src="{{ item.screenshot | relative_url }}">Preview</a>{% endif %}
+                <a lass="preview" href="{{ item.link }}" target="_blank" rel="noopener">Visit Project</a>
               </div>
             </div>
       {% endfor %}

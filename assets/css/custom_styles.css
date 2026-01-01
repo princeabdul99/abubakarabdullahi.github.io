@@ -265,6 +265,7 @@
 
 .projects {
   border: #d9d1c7 solid 1px;
+  background-color: #f2f0ec; /*test*/
   /* border-radius: 12px; */
   border-radius: 16px;
   overflow: hidden;  
@@ -322,7 +323,6 @@
   border-top: 0.5px solid #d9d1c7;
   display: flex;
 }
-
 
 .preview {
   display: block;
