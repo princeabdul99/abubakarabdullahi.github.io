@@ -5,7 +5,7 @@
                 transform it into optimized reporting models. This enabled
                 real-time analytics, reduced data latency, and ensured high data
                 quality across countries."
-  stack: "Snowflake · AWS ·  Python · Github"
+  stack: "Snowflake · AWS ·  Python · Postgresql · Github"
   image: "/assets/images/GFRDW_architecture.png"
   preview_gif: "/assets/images/GFRDW_architecture.png"
   screenshot: "/assets/images/GFRDW_architecture.png"
