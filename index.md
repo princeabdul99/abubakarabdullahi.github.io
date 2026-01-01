@@ -279,7 +279,6 @@ title: "Home"
               </a>
               <h3 class="card-title"><a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a></h3>
               <p class="card-text">{{ item.description }}</p>
-              <p class="tech-stack">Tech Stack</p>
               <ul class="tech-stack-list">
                 <li class="tech-item">
                   <ion-icon name="snow" class="icon snowflake"></ion-icon>
@@ -380,7 +379,10 @@ title: "Home"
                   <ion-icon class="icon" name="logo-github"></ion-icon>
                 </li>
               </ul>
-              <a href="#" class="visit-project">Visit Project</a>
+              <div class="visit-project">
+                <a href="#" class="preview">Visit Project</a>
+                <a href="#" class="preview">Visit Project</a>
+              </div>
             </div>
       {% endfor %}
     </div>

@@ -319,8 +319,13 @@
 }
 
 .visit-project {
-  display: block;
   border-top: 0.5px solid #d9d1c7;
+  display: flex;
+}
+
+
+.preview {
+  display: block;
   color: #1a140d;
   font-size: 1.4rem;
   font-weight: 500;
