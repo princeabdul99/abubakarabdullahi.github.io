@@ -277,16 +277,8 @@ title: "Home"
                 <img src="{{ item.image | default: '/assets/images/placeholder_project.jpg' | relative_url }}"
                     alt="{{ item.title | escape }} thumbnail" loading="lazy">
               </a>
-              <h3 class="heading-tertiary heading-title">
-                Global Fashion Retail
-              </h3>
-              <p class="skill-subheading">
-                Architected and implemented an automated data pipeline to
-                extract raw data from AWS S3, ingest into Snowflake, and
-                transform it into optimized reporting models. This enabled
-                real-time analytics, reduced data latency, and ensured high data
-                quality across countries.
-              </p>
+              <h3 class="card-title"><a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a></h3>
+              <p class="card-text">{{ item.description }}</p>
               <p class="tech-stack">Tech Stack</p>
               <ul class="tech-stack-list">
                 <li class="tech-item">

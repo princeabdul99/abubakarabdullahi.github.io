@@ -265,7 +265,9 @@
 
 .projects {
   border: #d9d1c7 solid 1px;
-  border-radius: 12px;
+  /* border-radius: 12px; */
+  border-radius: 16px;
+  overflow: hidden;  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
