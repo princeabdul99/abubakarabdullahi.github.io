@@ -16,7 +16,7 @@ title: "Home"
     scrollbar-width: none;    /* Firefox */
   }
   .carousel-track::-webkit-scrollbar { display: none; } /* WebKit */
-  .carousel .card .products{ flex: 0 0 300px; } /* slide width */
+  .carousel .card{ flex: 0 0 300px; } /* slide width */
 </style>
 
 <section id="about" class="section">
@@ -276,7 +276,7 @@ title: "Home"
       <button class="scroll-btn left" data-target="#projects-track" aria-label="Scroll projects left">‹</button>
       <div id="projects-track" class="carousel-track" role="region" aria-label="Projects list">
         {% for item in site.data.projects %}
-            <div class="projects">
+            <div class="card">
               <a class="thumb" href="{{ item.link }}" target="_blank" rel="noopener" aria-label="Open project">
                 <img src="{{ item.image | default: '/assets/images/placeholder_project.jpg' | relative_url }}"
                     alt="{{ item.title | escape }} thumbnail" loading="lazy">
@@ -303,7 +303,7 @@ title: "Home"
   {% else %}
     <div class="gallery">
       {% for item in site.data.projects %}
-        <div class="projects">
+        <div class="card">
           <a class="thumb" href="{{ item.link }}" target="_blank" rel="noopener" aria-label="Open project">
             <img src="{{ item.image | default: '/assets/images/placeholder_project.jpg' | relative_url }}"
                 alt="{{ item.title | escape }} thumbnail" loading="lazy">
