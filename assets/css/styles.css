@@ -196,6 +196,7 @@ a { color: #1a140d; text-decoration: none; }
 
   display:flex;
   justify-content: center;
+  align-self: flex-end;
 }
 
 .card-title {
@@ -211,7 +212,8 @@ a { color: #1a140d; text-decoration: none; }
   color: #1a140d;
   font-size: 1.6rem;
   font-weight: 400;
-  line-height: 1.5;  
+  line-height: 1.5;
+  padding: 0 1rem
 } 
 
 .card-tags {
