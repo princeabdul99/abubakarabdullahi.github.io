@@ -4,14 +4,10 @@
                 end-to-end data engineering pipeline on Google Cloud Platform (GCP). 
                 The pipeline ingests raw data from Google Cloud Storage (GCS), 
                 processes it through a medallion architecture (Bronze, Silver, Gold) using BigQuery, 
-                and delivers analytics-ready datasets visualized in Looker Studio.
-
-                The solution is fully automated, containerized, and orchestrated with Apache Airflow, 
-                reflecting real-world data engineering best practices around scalability, reliability, 
-                and analytics performance."
-  stack: "GCP · BigQuery · Apache Airflow · Python · Medallion Architecture · Docker  · Github · Looker Studio"
-  image: "/assets/images/gcs-dashboard.png"
-  preview_gif: "/assets/images/gcs-dashboard.png"
+                and delivers analytics-ready datasets visualized in Looker Studio."
+  stack: "GCP · Apache Airflow · Medallion Architecture · Docker  · Github · Looker Studio"
+  image: "/assets/images/gcp-dashboard.png"
+  preview_gif: "/assets/images/gcp-dashboard.png"
   screenshot: "/assets/images/gcp-dags-pipeline.png"
 
 

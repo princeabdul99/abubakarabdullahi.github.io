@@ -117,7 +117,7 @@ title: "Home"
               ></ion-icon>
               <div>
               <span>Data Storage:</span>
-              <p>Postgres, GCP, Snowflake, AWS, Azure</p>
+              <p>Postgres, GCP, Snowflake, AWS, BigQuery</p>
               </div>
           </li>
           <li class="list-item--tool">
@@ -137,7 +137,7 @@ title: "Home"
               ></ion-icon>
               <div>
               <span>Data Ingestion & Transformation:</span>
-              <p>DLT, DBT, Spark</p>
+              <p> DBT, Spark</p>
               </div>
           </li>
           <li class="list-item--tool">
@@ -147,7 +147,7 @@ title: "Home"
               ></ion-icon>
               <div>
               <span>Others:</span>
-              <p>Docker, Python, Power BI, Apache Superset</p>
+              <p>Docker, Python, Power BI, Looker Studio</p>
               </div>
           </li>
         </ul>
